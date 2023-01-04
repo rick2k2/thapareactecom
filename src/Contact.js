@@ -1,39 +1,44 @@
-import styled from "styled-components";
+// import styled from "styled-components";
 
 const Contact = () => {
-  const Wrapper = styled.section`
-    padding: 9rem 0 5rem 0;
-    text-align: center;
+  // return <wrapper></wrapper>
+  return (
+    <div>
+      <h1>Contact</h1>
+    </div>
+  )
+}
 
-    .container {
-      margin-top: 6rem;
+  // const Wrapper = styled.section`
+  //   padding: 9rem 0 5rem 0;
+  //   text-align: center;
 
-      .contact-form {
-        max-width: 50rem;
-        margin: auto;
+  //   .container {
+  //     margin-top: 6rem;
 
-        .contact-inputs {
-          display: flex;
-          flex-direction: column;
-          gap: 3rem;
+  //     .contact-form {
+  //       max-width: 50rem;
+  //       margin: auto;
 
-          input[type="submit"] {
-            cursor: pointer;
-            transition: all 0.2s;
+  //       .contact-inputs {
+  //         display: flex;
+  //         flex-direction: column;
+  //         gap: 3rem;
 
-            &:hover {
-              background-color: ${({ theme }) => theme.colors.white};
-              border: 1px solid ${({ theme }) => theme.colors.btn};
-              color: ${({ theme }) => theme.colors.btn};
-              transform: scale(0.9);
-            }
-          }
-        }
-      }
-    }
-  `;
+  //         input[type="submit"] {
+  //           cursor: pointer;
+  //           transition: all 0.2s;
 
-  return <Wrapper></Wrapper>;
-};
+  //           &:hover {
+  //             background-color: ${({ theme }) => theme.colors.white};
+  //             border: 1px solid ${({ theme }) => theme.colors.btn};
+  //             color: ${({ theme }) => theme.colors.btn};
+  //             transform: scale(0.9);
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // `;
 
 export default Contact;
